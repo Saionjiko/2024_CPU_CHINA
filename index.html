@@ -251,45 +251,7 @@
 
     <!-- Back To Top Button -->
     <a id="button"></a>
-
-    <!-- js code -->
-      <script>
-        // 导航栏动画
-        $(function(){
-          var str = '#len'; //increment by 1 up to 1-nelemnts
-          $(document).ready(function(){
-            var i, stop;
-            i = 1;
-            stop = 5; //num elements
-            setInterval(function(){
-              if (i > stop){
-                return;
-              }
-              $('#len'+(i++)).toggleClass('bounce');
-            }, 500)
-          });
-        });
-        // END
-  
-      </script>
-
-    <script type="text/javascript">
-        // 初始化skrollr
-        window.onload=function(){
-            var s=skrollr.init();
-        }
-
-        window.addEventListener('resize', function() {
-            // 刷新 Skrollr 以重新计算元素的位置和动画参数
-            s.refresh();
-        });
-
-    </script>
-
-    <script type="text/javascript">
-        new WOW().init();
-    </script>
-    
+        
     <!-- Back To Top Button -->
     <script>
     var btn = $('#button');
